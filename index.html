@@ -42,12 +42,38 @@
                     </ul>
                 </div>
             </nav>
+            <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+            <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
             <div class="ch-display-table">
                 <a href="" class="ch-main-logo-link"><img class="ch-main-logo-img" src="assets/img/main-logo.png"/></a>
             </div>
             <p class="ch-main-logo">
+                <div class="background-carousel">
+                  <img src="assets/img/top-bg.png">
+                  <img src="assets/img/top-bg.png">
+                  <img src="assets/img/top-bg.png">
+                </div>
                 С буковками можно занять детей с пользой. <br/> а можно и <span class="highlight"><a href="#">нарисовать</a></span> для них что-ниудь интересное
             </p>
+            <style>
+              .ch-main-logo {
+                background: none;
+
+              }
+              .background-carousel {
+                position: relative;
+                top: -400px;
+              }
+              .background-carousel > img {
+                width: 100%;
+              }
+              .slick-arrow {
+                display: none !important;
+              }
+            </style>
+            <script type="text/javascript">
+              $(".background-carousel").slick();
+            </script>
         </header>
     </div>
         <section>
