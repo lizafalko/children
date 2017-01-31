@@ -83,6 +83,7 @@ h2{
 	font-size: 16px;
 	font-family: "Myriad Pro";
 	color: #337ab7;
+    /* Это раскладка на Rus */
 	line-height: 1.688;
     
     .navbar-nav{
@@ -96,6 +97,10 @@ h2{
         &:hover{
             color: @ch-hover-color;
         }
+    }
+
+    .ch-hover, a {
+        font-family: "OpenSansRegular", "Tahoma", sans-serif;
     }
 
 	.nav-item{
@@ -198,10 +203,14 @@ h2{
 }
 
 
+.background-carousel {
+    margin-bottom: 35px;
+}
+
 .ch-main-logo{
     //background: url(../img/top-bg.png) center top no-repeat;
 	//margin-top: 30px;
-	padding-top: 418px;
+	//padding-top: 418px;
 	font-size: 18px;
 	font-family: "Open Sans";
 	color: rgb(26, 26, 54);
@@ -230,7 +239,7 @@ h2{
 	margin-top: 35px;
     padding-top: 30px;
 	position: relative;
-    box-shadow: 0px 7px 10px -9px rgba(0, 0, 0, 0.5);
+    
     
     @media (max-width: 576px){
         margin-top: 20px;
@@ -317,11 +326,17 @@ h2{
 }
 .tab-menu-wrap{  
     width: 100%;
+    background: white;
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, .1));
+}
+
+.ch-enter {
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 .ch-items{
 	background: url(../img/things-bg.png) center no-repeat,
-                @ch-bg-color;
+    @ch-bg-color;
     background-position: left 50px bottom -300px;
     padding-bottom: 80px;
 
@@ -503,7 +518,7 @@ footer{
     font-size: 14px;
 	font-family: "Open Sans";
 	color: #97a9b2;
-    padding: 27px 0;
+    padding: 27px;
 	line-height: 1.688;
 
 	ul{
@@ -599,6 +614,16 @@ footer{
         }
     }
     
+}
+
+
+.container {
+    all: unset;
+}
+
+header {
+    padding-right: 27px;
+    padding-left: 27px;
 }
 
 //img:not([width]):not([height]) {

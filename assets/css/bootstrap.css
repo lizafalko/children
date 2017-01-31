@@ -6788,6 +6788,7 @@ h2 {
   font-size: 16px;
   font-family: "Myriad Pro";
   color: #337ab7;
+  /* Это раскладка на Rus */
   line-height: 1.688;
 }
 .ch-top-menu .navbar-nav {
@@ -6797,6 +6798,10 @@ h2 {
 }
 .ch-top-menu span:hover {
   color: #ff4557;
+}
+.ch-top-menu .ch-hover,
+.ch-top-menu a {
+  font-family: "OpenSansRegular", "Tahoma", sans-serif;
 }
 .ch-top-menu .nav-item {
   display: table-cell;
@@ -6888,9 +6893,10 @@ h2 {
 .ch-display-table .ch-logo-url {
   margin-top: -95px;
 }
+.background-carousel {
+  margin-bottom: 35px;
+}
 .ch-main-logo {
-  background: url(../img/top-bg.png) center top no-repeat;
-  padding-top: 418px;
   font-size: 18px;
   font-family: "Open Sans";
   color: #1a1a36;
@@ -6900,7 +6906,6 @@ h2 {
 }
 @media (max-width: 576px) {
   .ch-main-logo {
-    background: url(../img/top-bg-sm.png) center top no-repeat;
     padding-top: 245px;
   }
 }
@@ -6914,7 +6919,6 @@ h2 {
   margin-top: 35px;
   padding-top: 30px;
   position: relative;
-  box-shadow: 0px 7px 10px -9px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 576px) {
   .ch-tab-menu {
@@ -6988,6 +6992,11 @@ h2 {
 }
 .tab-menu-wrap {
   width: 100%;
+  background: white;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.1));
+}
+.ch-enter {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 .ch-items {
   background: url(../img/things-bg.png) center no-repeat, #e8f0f5;
@@ -7152,7 +7161,7 @@ footer {
   font-size: 14px;
   font-family: "Open Sans";
   color: #97a9b2;
-  padding: 27px 0;
+  padding: 27px;
   line-height: 1.688;
   /*li:first-child{
 		padding-left: 40px;
@@ -7248,6 +7257,13 @@ footer a:hover {
   .social .counter {
     font-size: 15px;
   }
+}
+.container {
+  all: unset;
+}
+header {
+  padding-right: 27px;
+  padding-left: 27px;
 }
 .ch-enter {
   background: #e8f0f5;
