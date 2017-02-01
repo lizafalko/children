@@ -6889,8 +6889,8 @@ h2 {
   margin-top: -95px;
 }
 .ch-main-logo {
-  background: url(../img/top-bg.png) center top no-repeat;
-  padding-top: 418px;
+  /*background: url(../img/top-bg.png) center top no-repeat;
+	padding-top: 418px;*/
   font-size: 18px;
   font-family: "Open Sans";
   color: #1a1a36;
@@ -7272,6 +7272,9 @@ body {
   background: none !important;
 }
 /* /hack */
+.carousel {
+  margin-bottom: 35px;
+}
 .ch-enter {
   background: #e8f0f5;
 }
