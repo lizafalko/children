@@ -200,7 +200,6 @@ h2{
 
 .ch-main-logo{
 	background: url(../img/top-bg.png) center top no-repeat;
-	//margin-top: 30px;
 	padding-top: 418px;
 	font-size: 18px;
 	font-family: "Open Sans";
@@ -500,7 +499,7 @@ h2{
 }
 
 footer{
-    border-top: 1px solid #ff4556;
+    /*border-top: 1px solid #ff4556;*/
     font-size: 14px;
 	font-family: "Open Sans";
 	color: #97a9b2;
@@ -602,6 +601,32 @@ footer{
     
 }
 
+.login-page-main {
+    position: relative;
+}
+
+/* hack */
+.blue-full-width {
+    background-color: #e8f0f5;
+    width: 1000%;
+    position: absolute;
+    height: 101%;
+    top: 0;
+    left: -500%;
+    z-index: -1;
+    border-bottom: 1px solid #ff4556;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ch-enter {
+    background-color: none;
+}
+
+
+/* /hack */
 //img:not([width]):not([height]) {
 //  border: 2px solid red !important;
 //}
