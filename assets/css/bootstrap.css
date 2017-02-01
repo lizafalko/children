@@ -7263,12 +7263,13 @@ footer a:hover {
   left: -500%;
   z-index: -1;
   border-bottom: 1px solid #ff4556;
+  box-shadow: inset 0 4px 5px 0 rgba(0, 0, 0, 0.1);
 }
 body {
   overflow-x: hidden;
 }
 .ch-enter {
-  background-color: none;
+  background: none !important;
 }
 /* /hack */
 .ch-enter {
