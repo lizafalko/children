@@ -6787,7 +6787,7 @@ h2 {
 .ch-top-menu {
   font-size: 14px;
   font-family: "OpenSansRegular", "Tahoma", sans-serif;
-  color: #337ab7;
+  color: silver;
   line-height: 1.688;
 }
 .ch-top-menu .navbar-nav {
@@ -6797,6 +6797,9 @@ h2 {
 }
 .ch-top-menu span:hover {
   color: #ff4557;
+}
+.ch-top-menu a {
+  color: silver;
 }
 .ch-top-menu .nav-item {
   display: table-cell;
@@ -7118,6 +7121,7 @@ h2 {
   margin-top: 50px;
   background: url(../img/things-bg.png) center no-repeat, #ffffff;
   background-position: left 50% top -99px;
+  border-bottom: 1px solid #ff4556;
 }
 .ch-bottom p {
   font-size: 16px;
