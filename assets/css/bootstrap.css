@@ -6787,7 +6787,7 @@ h2 {
 .ch-top-menu {
   font-size: 14px;
   font-family: "OpenSansRegular", "Tahoma", sans-serif;
-  color: silver;
+  color: grey;
   line-height: 1.688;
 }
 .ch-top-menu .navbar-nav {
@@ -6799,7 +6799,7 @@ h2 {
   color: #ff4557;
 }
 .ch-top-menu a {
-  color: silver;
+  color: grey;
 }
 .ch-top-menu .nav-item {
   display: table-cell;
@@ -6903,8 +6903,8 @@ h2 {
 }
 @media (max-width: 576px) {
   .ch-main-logo {
-    background: url(../img/top-bg-sm.png) center top no-repeat;
-    padding-top: 245px;
+    /*background: url(../img/top-bg-sm.png) center top no-repeat;
+        padding-top: 245px;*/
   }
 }
 .highlight {
@@ -7279,6 +7279,24 @@ body {
 /* /hack */
 .carousel {
   margin-bottom: 35px;
+}
+.sign {
+  display: block;
+  font-family: 'OpenSansBold', 'Tahoma', sans-serif;
+  margin-bottom: 30px;
+}
+.text {
+  font-family: 'OpenSansRegular', 'Tahoma', sans-serif;
+}
+.text--narrow {
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .text--narrow {
+    width: 78%;
+  }
 }
 .ch-enter {
   background: #e8f0f5;
