@@ -7298,6 +7298,9 @@ body {
     width: 78%;
   }
 }
+.ch-enter-text {
+  font-family: 'OpenSansLight', 'Tahoma', sans-serif;
+}
 .ch-enter {
   background: #e8f0f5;
 }
@@ -7340,7 +7343,7 @@ body {
 }
 .ch-enter .ch-enter-caption .ch-enter-text {
   font-size: 40px;
-  font-family: "Open Sans";
+  /*font-family: "Open Sans";*/
   color: #335478;
   line-height: 1.444;
   font-weight: 300;
