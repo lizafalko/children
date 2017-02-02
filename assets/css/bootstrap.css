@@ -7154,7 +7154,6 @@ h2 {
   }
 }
 footer {
-  /*border-top: 1px solid #ff4556;*/
   font-size: 14px;
   font-family: "Open Sans";
   color: #97a9b2;
@@ -7183,6 +7182,9 @@ footer li:last-child {
 footer a,
 footer a:hover {
   color: #97a9b2;
+}
+.footer-red-line {
+  border-top: 1px solid #ff4556;
 }
 @media (max-width: 724px) {
   .ch-footer-menu {
