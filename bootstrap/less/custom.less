@@ -82,7 +82,7 @@ h2{
 .ch-top-menu{
 	font-size: 14px;
 	font-family: "OpenSansRegular", "Tahoma", sans-serif;
-	color: grey;
+	color: #97a9b2;
 	line-height: 1.688;
     
     .navbar-nav{
@@ -99,7 +99,7 @@ h2{
     }
 
     a {
-        color: grey;
+        color: #97a9b2;
     }
 
 	.nav-item{
@@ -158,6 +158,7 @@ h2{
 .ch-main-logo-link{
     margin-top: -50px;
     display: block;
+    padding-bottom: 40px;
     position: relative;
     z-index: 10;
 
@@ -313,7 +314,7 @@ h2{
 
 .fixed{
     position: fixed;
-    top: -36px;
+    top: 0;
     background: white;
     z-index: 99;  
 }
@@ -325,7 +326,7 @@ h2{
 
 .ch-items{
 	background: url(../img/things-bg.png) center no-repeat,
-                @ch-bg-color;
+    @ch-bg-color;
     background-position: left 50px bottom -300px;
     padding-bottom: 80px;
 
@@ -695,7 +696,7 @@ body {
 
   font-family: "OpenSansRegular", "Tahoma", sans-serif;
   text-transform: none;
-  color: grey;
+  color: #97a9b2;
 }
 
 .userbar__edit {
@@ -704,7 +705,7 @@ body {
   padding-top: 15px;
   font-family: "OpenSansRegular", "Tahoma", sans-serif;
   text-transform: none;
-  color: grey;
+  color: #97a9b2;
 }
 
 .userbar__social-icon {
@@ -723,6 +724,50 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.ch-items {
+/*.ch-items {
   border-bottom: 1px solid #ff4556;
+}*/
+
+.row__heading {
+    font-family: 'OpenSansLight', 'Tahoma', sans-serif;
+    font-size: 40px;
+    color: #335478;
+    line-height: 1.444;
+    font-weight: 300;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row__text {
+    font-family: 'OpenSansLight', 'Tahoma', sans-serif;
+    font-size: 18px;
+    color: #335478;
+    line-height: 1.444;
+    font-weight: 300;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.no-things {
+    background: @ch-bg-color;
+}
+
+.row__swg {
+    margin-bottom: 20px;
+}
+
+.tab-menu-wrap-narrow {
+    margin-top: 0;
+}
+
+.red-line {
+    border-top: 1px solid #ff4556;
 }
