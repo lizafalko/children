@@ -6901,12 +6901,24 @@ h2 {
   line-height: 1.444;
   text-align: center;
   text-transform: uppercase;
+  height: 400px;
+  position: relative;
+  margin-bottom: 35px;
+  overflow: hidden;
 }
 @media (max-width: 576px) {
   .ch-main-logo {
     /*background: url(../img/top-bg-sm.png) center top no-repeat;
         padding-top: 245px;*/
   }
+}
+.ch-main-logo-like {
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #1a1a36;
+  line-height: 1.444;
+  text-align: center;
+  text-transform: uppercase;
 }
 .highlight {
   color: #29abe2;
@@ -7281,7 +7293,14 @@ body {
 }
 /* /hack */
 .carousel {
-  margin-bottom: 35px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -604px;
+}
+.carousel > img {
+  width: 1209px;
+  height: 392px;
 }
 .sign {
   display: block;
@@ -7407,6 +7426,9 @@ h3 {
 }
 .left-link:hover {
   color: #ff4557;
+}
+.carousel {
+  transform: scale(0.9);
 }
 .ch-enter {
   background: #e8f0f5;
@@ -7861,8 +7883,5 @@ ch-hover {
   margin: 15px 0;
   border: none;
   outline: none;
-}
-.carousel {
-  margin-bottom: 35px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
