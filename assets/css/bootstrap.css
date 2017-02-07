@@ -6894,7 +6894,7 @@ h2 {
 }
 .ch-main-logo {
   /*background: url(../img/top-bg.png) center top no-repeat;
-	padding-top: 418px;*/
+    padding-top: 418px;*/
   font-size: 18px;
   font-family: "Open Sans";
   color: #1a1a36;
@@ -7182,8 +7182,8 @@ footer {
   padding: 27px 0;
   line-height: 1.688;
   /*li:first-child{
-		padding-left: 40px;
-	}*/
+        padding-left: 40px;
+    }*/
 }
 footer ul {
   display: table;
