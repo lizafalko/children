@@ -6793,7 +6793,6 @@ h2 {
 .ch-top-menu .navbar-nav {
   display: table;
   width: 100%;
-  /*overflow: hidden;*/
 }
 .ch-top-menu span:hover {
   color: #ff4557;
@@ -6894,7 +6893,7 @@ h2 {
 }
 .ch-main-logo {
   /*background: url(../img/top-bg.png) center top no-repeat;
-    padding-top: 418px;*/
+	padding-top: 418px;*/
   font-size: 18px;
   font-family: "Open Sans";
   color: #1a1a36;
@@ -6909,7 +6908,7 @@ h2 {
 @media (max-width: 576px) {
   .ch-main-logo {
     /*background: url(../img/top-bg-sm.png) center top no-repeat;
-        padding-top: 245px;*/
+		padding-top: 245px;*/
   }
 }
 .ch-main-logo-like {
@@ -7085,10 +7084,10 @@ h2 {
 .ch-items .ch-card-wrap figcaption .thumbs-up:before {
   font-family: 'icomoon';
   content: "\e903";
-  font-size: 31px;
+  font-size: 24px;
   position: absolute;
-  left: 34px;
-  top: -4px;
+  left: 41px;
+  top: 4px;
 }
 .ch-items .ch-card-wrap figcaption .bookmark {
   padding: 10px 20px 10px 10px;
@@ -7096,10 +7095,10 @@ h2 {
 .ch-items .ch-card-wrap figcaption .bookmark:before {
   font-family: 'icomoon';
   content: "\e900";
-  font-size: 29px;
+  font-size: 22px;
   position: absolute;
-  left: 4px;
-  top: -3px;
+  left: 10px;
+  top: 5px;
 }
 .ch-items .ch-card-wrap figcaption a {
   color: #fff;
@@ -7182,8 +7181,8 @@ footer {
   padding: 27px 0;
   line-height: 1.688;
   /*li:first-child{
-        padding-left: 40px;
-    }*/
+		padding-left: 40px;
+	}*/
 }
 footer ul {
   display: table;
@@ -7370,7 +7369,7 @@ body {
   margin-top: 0;
 }
 .red-line {
-  border-top: 1px solid #ff4556;
+  border-top: 1px solid #ff4557;
 }
 .userbar__avatar {
   border-radius: 50%;
