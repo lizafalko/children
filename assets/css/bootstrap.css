@@ -7430,6 +7430,10 @@ h3 {
 .carousel {
   transform: scale(0.9);
 }
+.userbar__avatar {
+  width: 100px;
+  height: 100px;
+}
 .ch-enter {
   background: #e8f0f5;
 }
