@@ -7384,6 +7384,7 @@ body {
 .userbar__social-icon {
   border-radius: 5px;
   padding-top: 10px;
+  margin-right: 10px;
 }
 .userbar__username {
   font-family: "OpenSansBold", "Tahoma", sans-serif;
@@ -7433,6 +7434,44 @@ h3 {
 .userbar__avatar {
   width: 100px;
   height: 100px;
+}
+.icon {
+  font-size: 30px;
+  line-height: 32px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: #cccccc;
+}
+.userbar__link {
+  color: #98aab3;
+}
+.userbar__nickname {
+  width: 300px;
+}
+.userbar__link:hover {
+  color: #ff4557;
+}
+.userbar__edit:hover {
+  color: #ff4557;
+}
+@media screen and (max-width: 580px) {
+  .userbar__nickname {
+    width: 200px;
+  }
+  .userbar__edit {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+.ch-hover-menu--right {
+  left: initial !important;
+  right: -30px !important;
+}
+.ch-hover-menu--right > .list-unstyled::before {
+  left: initial;
+  right: 30px;
 }
 .ch-enter {
   background: #e8f0f5;
