@@ -6950,13 +6950,16 @@ h2 {
   color: #ff4557;
 }
 .ch-tab-menu .ch-print:after {
-  content: url(../img/print.png);
+  font-family: "icomoon";
+  content: "\e904";
   position: absolute;
+  font-size: 30px;
+  color: #98aab3;
   right: 0;
-  top: 30px;
+  top: 21px;
 }
 .ch-tab-menu .ch-print:hover:after {
-  content: url(../img/print-hover.png);
+  color: #ff4557;
 }
 .ch-tab-menu > ul {
   margin-left: auto;
@@ -7080,17 +7083,23 @@ h2 {
   padding: 10px 20px 10px 70px;
 }
 .ch-items .ch-card-wrap figcaption .thumbs-up:before {
-  content: url('../img/thumbs-up.png');
+  font-family: 'icomoon';
+  content: "\e903";
+  font-size: 31px;
   position: absolute;
-  left: 45px;
+  left: 34px;
+  top: -4px;
 }
 .ch-items .ch-card-wrap figcaption .bookmark {
   padding: 10px 20px 10px 10px;
 }
 .ch-items .ch-card-wrap figcaption .bookmark:before {
-  content: url('../img/bookmark.png');
+  font-family: 'icomoon';
+  content: "\e900";
+  font-size: 29px;
   position: absolute;
-  left: 15px;
+  left: 4px;
+  top: -3px;
 }
 .ch-items .ch-card-wrap figcaption a {
   color: #fff;
