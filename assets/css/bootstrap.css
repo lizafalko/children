@@ -7422,6 +7422,29 @@ h3 {
 .ch-user-about-no-image {
   background: none !important;
 }
+.ch-user-about-pencils {
+  background-image: url(../img/fon2.png) !important;
+  background-position: left 98%;
+  background-repeat: no-repeat !important;
+}
+@media (max-width: 1260px) {
+  .ch-user-about-pencils {
+    background-position: center left;
+    background-size: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .ch-user-about-pencils {
+    background-position: center left;
+    background-size: 0%;
+  }
+}
+@media (max-width: 576px) {
+  .ch-user-about-pencils {
+    background-position: center left;
+    background-size: 0%;
+  }
+}
 .ch-about-wrap:not(:last-child) {
   border-bottom: none !important;
 }
