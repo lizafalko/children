@@ -7481,6 +7481,13 @@ h3 {
   left: initial;
   right: 30px;
 }
+.form-button--author {
+  color: white;
+  background-color: #ff4557;
+}
+.ch-why-block--left {
+  margin-left: 0 !important;
+}
 .ch-enter {
   background: #e8f0f5;
 }
@@ -7724,10 +7731,6 @@ ch-hover {
   color: #1a1a36;
   font-family: "OpenSansLight";
 }
-.ch-user-about-author {
-  background: url(../img/bg-author.png) center no-repeat !important;
-  background-position: left 176% !important;
-}
 .about-bold {
   font-size: 16px;
   color: #1a1a36;
@@ -7785,7 +7788,8 @@ ch-hover {
   border: none;
 }
 .ch-user-about {
-  background: url(../img/user-about-bg.png) center no-repeat;
+  background: url(../img/user-about-bg.png), url(../img/fon1.png);
+  background-repeat: no-repeat;
   background-position: left 34%;
 }
 @media (max-width: 1260px) {
@@ -7855,6 +7859,29 @@ ch-hover {
   }
   .ch-user-about .ch-todo > ul > li {
     font-size: 15px;
+  }
+}
+.ch-user-about-author {
+  background: url(../img/bg-author.png);
+  background-position: left 176%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1260px) {
+  .ch-user-about-author {
+    background-position: center left;
+    background-size: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .ch-user-about-author {
+    background-position: center left;
+    background-size: 0%;
+  }
+}
+@media (max-width: 576px) {
+  .ch-user-about-author {
+    background-position: center left;
+    background-size: 0%;
   }
 }
 .about-printer {

@@ -13,10 +13,6 @@
 //    }
 }
 
-.ch-user-about-author{
-    background: url(../img/bg-author.png) center no-repeat !important;
-    background-position: left 176% !important;
-}
 
 .about-bold{
     font-size: 16px;
@@ -76,8 +72,9 @@
         }
     }
 }
-.ch-user-about{
-    background: url(../img/user-about-bg.png) center no-repeat;
+.ch-user-about {
+    background: url(../img/user-about-bg.png), url(../img/fon1.png);
+    background-repeat: no-repeat;
     background-position: left 34%;
     
     @media(max-width: 1260px){
@@ -148,6 +145,24 @@
                 font-size: 15px;
             }       
         }
+    }
+}
+
+.ch-user-about-author{
+    background: url(../img/bg-author.png);
+    background-position: left 176%;
+    background-repeat: no-repeat;
+    @media(max-width: 1260px){
+        background-position: center left;
+        background-size: 50%;
+    }
+    @media(max-width: 992px){
+        background-position: center left;
+        background-size: 0%;
+    }
+    @media(max-width: 576px){
+        background-position: center left;
+        background-size: 0%;
     }
 }
 
