@@ -7484,9 +7484,15 @@ h3 {
 .form-button--author {
   color: white;
   background-color: #ff4557;
+  padding: 10px 20px;
+  margin-top: 45px;
+}
+.form-button--author:hover {
+  color: white;
 }
 .ch-why-block--left {
   margin-left: 0 !important;
+  margin-bottom: 9px !important;
 }
 .ch-enter {
   background: #e8f0f5;
@@ -7863,7 +7869,7 @@ ch-hover {
 }
 .ch-user-about-author {
   background: url(../img/bg-author.png);
-  background-position: left 176%;
+  background-position: left 89%;
   background-repeat: no-repeat;
 }
 @media (max-width: 1260px) {
@@ -7965,5 +7971,18 @@ ch-hover {
   margin: 15px 0;
   border: none;
   outline: none;
+}
+.text-left__small {
+  color: #b8b8b8;
+  list-style-type: none;
+  margin-left: 25px;
+  font-style: italic;
+}
+.checkbox-label-remember {
+  margin-left: -159px;
+}
+.ch-bottom-help {
+  border-top: 1px solid #dedddd !important;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
