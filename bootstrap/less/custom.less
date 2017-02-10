@@ -104,7 +104,7 @@ h2 {
 
 	.nav-item {
 		display: table-cell;
-		word-wrap: nowrap;
+		//word-wrap: nowrap;
 		text-align: left;
 		padding: 0 100px 0 0;
 		float: none;
@@ -123,7 +123,7 @@ h2 {
 		}
 	}
 	li:nth-child(2) {
-		width: 100%;
+		width: 61%;
 	} 
 	li:last-child {
 		padding-right: 0;
@@ -345,7 +345,7 @@ h2 {
 	background: url(../img/things-bg.png) center no-repeat,
 	@ch-bg-color;
 	background-position: left 50px bottom -300px;
-	padding-bottom: 80px;
+	//padding-bottom: 80px;
 
 	.row > div{
 		margin-bottom: 45px;
@@ -353,7 +353,8 @@ h2 {
 	
 	.ch-items-wrap{
 		padding: 4%;
-		padding-top: 65px;
+		padding-top: 72px;
+		padding-bottom: 30px;
 	}
 	.ch-card-wrap{
 		position: relative;
@@ -919,4 +920,38 @@ h3{
 .ch-why-block--left {
 	margin-left: 0 !important;
 	margin-bottom: 9px !important;
+}
+
+
+.userbar__avatar--small {
+	width: 30px;
+	height: 30px;
+	margin-right: 16px;
+}
+
+.nav-item--baby {
+	// margin-left: -10px;
+	@media screen and (max-width: 1262px) {
+		a, span {
+			display: none !important;
+		}
+	}
+}
+
+.ch-print, .language, .alphabet {
+	@media screen and (max-width: 988px) {
+		display: none !important;
+	}
+}
+
+.trash {
+	position: absolute;
+    top: 5px;
+    right: 12px;
+    &::before {
+    	font-family: 'icomoon';
+    	content: "\e901";
+    	font-size: 24px;
+    	color: rgba(255, 255, 255, .4);
+    }
 }

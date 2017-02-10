@@ -6802,7 +6802,6 @@ h2 {
 }
 .ch-top-menu .nav-item {
   display: table-cell;
-  word-wrap: nowrap;
   text-align: left;
   padding: 0 100px 0 0;
   float: none;
@@ -6821,7 +6820,7 @@ h2 {
   }
 }
 .ch-top-menu li:nth-child(2) {
-  width: 100%;
+  width: 61%;
 }
 .ch-top-menu li:last-child {
   padding-right: 0;
@@ -7011,14 +7010,14 @@ h2 {
 .ch-items {
   background: url(../img/things-bg.png) center no-repeat, #e8f0f5;
   background-position: left 50px bottom -300px;
-  padding-bottom: 80px;
 }
 .ch-items .row > div {
   margin-bottom: 45px;
 }
 .ch-items .ch-items-wrap {
   padding: 4%;
-  padding-top: 65px;
+  padding-top: 72px;
+  padding-bottom: 30px;
 }
 .ch-items .ch-card-wrap {
   position: relative;
@@ -7516,6 +7515,35 @@ h3 {
 .ch-why-block--left {
   margin-left: 0 !important;
   margin-bottom: 9px !important;
+}
+.userbar__avatar--small {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+@media screen and (max-width: 1262px) {
+  .nav-item--baby a,
+  .nav-item--baby span {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 988px) {
+  .ch-print,
+  .language,
+  .alphabet {
+    display: none !important;
+  }
+}
+.trash {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+}
+.trash::before {
+  font-family: 'icomoon';
+  content: "\e901";
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.4);
 }
 .ch-enter {
   background: #e8f0f5;
