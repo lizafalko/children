@@ -125,49 +125,87 @@
                <div class="ch-enter-form">
                   <form role="form">
                     <div class="form-group">
-                      <label>Язык и буква:</label>
+                      <label class="form-group-language">Язык и буква:</label>
+                      <ul class="form-group-selector lang-select">
+                        <li class="active">Russian</li>
+                        <li>English</li>
+                        <li>Deutsch</li>
+                      </ul>
+                      <ul class="letter-select">
+                        <li class="active">а</li>
+                        <li>б</li>
+                        <li>в</li>
+                        <li>г</li>
+                        <li>д</li>
+                        <li>е</li>
+                        <li>ж</li>
+                        <li>з</li>
+                        <li>и</li>
+                        <li>к</li>
+                        <li>л</li>
+                        <li>м</li>
+                        <li>н</li>
+                        <li>о</li>
+                        <li>п</li>
+                        <li>р</li>
+                        <li>с</li>
+                        <li>т</li>
+                        <li>у</li>
+                        <li>ф</li>
+                        <li>х</li>
+                        <li>ц</li>
+                        <li>ч</li>
+                        <li>ш</li>
+                        <li>щ</li>
+                        <li>э</li>
+                        <li>ю</li>
+                        <li>я</li>
+                      </ul>
                     </div>
                     <div class="form-group">
-                      <label for="chInputName">Название:</label>
+                      <label for="chInputName" style="font-weight: normal;">Название:</label>
                       <input type="text" class="form-control ch-input" id="chInputName" placeholder="Название">
                     </div>
                     <div class="form-group">
-                      <button type="button" class="btn ch-btn-submit">Выбрать карточку</button>
+                      <button type="button" class="btn ch-btn-submit btn--wide">Выбрать карточку</button>
                       <span class="sign-big">1000x1500</span>
                       <span class="sign-small">jpeg, png</span>
                       <br>
-                      <span class="sign-small">Card_1.png</span>
+                      <span class="sign-small sign-small--bottom" style="display: inline-block; padding-top: 10px;">Card_1.png</span>
                     </div>
                     <div class="form-group">
-                      <button type="button" class="btn ch-btn-submit">Есть свое превью?</button>
+                      <button type="button" class="btn ch-btn-submit btn--wide">Есть свое превью?</button>
                       <span class="sign-big">300x450</span>
                       <span class="sign-small">jpeg, png</span>
                     </div>
                     <div class="form-group">
-                      <button type="button" class="btn ch-btn-submit btn--white">FFFFFF</button>
+                      <button type="button" class="btn ch-btn-submit btn--white btn--wide btn--left">FFFFFF</button>
                       <span class="sign-big">Цвет фона</span>
-                      <span class="sign-small">По умолчанию черный</span>
+                      <span class="sign-small">по умолчанию черный</span>
                     </div>
                     <div class="form-group">
                       <label class="checkbox-label" for="check-one">
                         <input type="checkbox" name="check-one" id="check-one" value="checkone"/>
-                        <i></i> <span>Я присылаю карточку, которую сделал сам.</span>
-                        <br>
-                        <span class="highlight" href="#">Я согласен с правилами</span>
-                      </label> 
+                        <i></i> <span class="sign-big">Я присылаю карточку, которую сделал сам.</span>
+                      </label>
+                      <br>
+                      <label class="checkbox-label">
+                        <input type="checkbox" value="checkone" disabled />
+                        <i style="opacity: 0;"></i> <span class="highlight" style="display: inline-block; padding-top: 0px;">Я согласен с правилами</span>
+                      </label>
                     </div>
                     <div class="row">
                       <div class="col-xs-12 col-sm-6 col-md-6 wrap-button-create">
                         <button type="submit" class="btn ch-btn-submit btn--green">Загрузить</button>
                       </div>   
                       <div class="col-xs-12 col-sm-6 col-md-6 wrap-link-forgot">
-                        <a href="#">не загружать</a>
+                        <a href="#">Не загружать</a>
                       </div>
                     </div>     
                   </form>
                </div>  
                <div class="ch-form-footer"></div>  
-               <div class="ch-button-wrap"><a href="#" class="btn ch-btn-alphabet">весь алфавит</a></div>                 
+               <!-- <div class="ch-button-wrap"><a href="#" class="btn ch-btn-alphabet">весь алфавит</a></div>                  -->
             </section>
         </main>
         <footer>
