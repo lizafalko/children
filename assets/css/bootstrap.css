@@ -7606,6 +7606,17 @@ h3 {
   color: #ff4556;
   border-bottom: 2px solid #ff4556;
 }
+.ch-enter-form--modified {
+  margin-top: -80px;
+}
+.form-group--flat {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px !important;
+}
+.form-group--flat > label {
+  flex-grow: 2;
+}
 .ch-enter {
   background: #e8f0f5;
 }
