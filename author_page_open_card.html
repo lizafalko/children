@@ -110,8 +110,117 @@
               </div>
           </div>       
         </section>
-        <main>
-            <section class="ch-items text-center no-things">
+        <style type="text/css">
+        	.special-main-for-one-card {
+        		position: relative;
+        		height: 650px;
+        		overflow: hidden;
+        	}
+        	.one-card {
+        		position: absolute;
+        		top: 0;
+        		bottom: 0;
+        		z-index: 10;
+        		width: 100%;
+        		background: rgba(0, 0, 90, .7);
+        	}
+        	.one-card > .ch-items {
+        		background: none;
+        		position: absolute;
+        		top: 0;
+        		bottom: 0;
+        		width: 100%;
+        	}
+
+        	.one-card .ch-card-wrap {
+        		width: 443px;
+        		height: 611px;
+        	}
+
+        	.one-card > .ch-items img {
+        		width: 443px;
+        		height: 611px;
+        	}
+
+        	.one-card > .ch-items figure {
+        		width: 443px;
+        		height: 611px;
+        		overflow: visible;
+        	}
+
+        	.one-card__card {
+        		/*margin: 40px auto;*/
+        		width: 443px;
+        		height: 611px; 
+        		position: absolute;
+        		top: 50%;
+        		left: 50%;
+        		transform: translate(-50%, -50%);
+        	}
+
+        	.one-card-btn {
+        		position: absolute;
+        		z-index: 11;
+        		color: white;
+        	}
+
+        	.one-card-left {
+        		top: 50%;
+        		left: 20%;
+        		transform: translate(-50%, 0);
+        	}
+        	.one-card-right {
+        		top: 50%;
+        		right: 20%;
+        		transform: translate(-50%, 0);
+        	}
+
+        	.one-card-close{
+        		top: 5%;
+        		right: 10%;
+        	}
+
+        	.one-card-print {
+        		bottom: 5%;
+        		right: 10%;
+        	}
+        </style>
+        <main class="special-main-for-one-card">
+        	<section class="one-card">
+        		<a class="one-card-btn one-card-left" href="#">
+        			<img src="assets/img/left.png">
+        		</a>
+        		<a class="one-card-btn one-card-right" href="#">
+        			<img src="assets/img/right.png">
+        		</a>
+        		<a class="one-card-btn one-card-close" href="#">
+        			<img src="assets/img/close.png">
+        		</a>
+        		<a class="one-card-btn one-card-print" href="#">
+        			<img src="assets/img/print.png">
+        		</a>
+        		<div class="ch-items">
+        			<div class="ch-card-wrap one-card__card">
+				    	<figure style="box-shadow: none;">
+				        	<img src="assets/img/items/9.png" width="443" height="611">
+<!-- 				        <figcaption>
+				        <div class="trash"></div>
+				          <div class="row card-info">
+				              <div class="col-xs-4 col-sm-4 col-md-4 thumbs-up">
+				                   <span>23</span>
+				               </div>   
+				               <div class="col-xs-4 col-sm-4 col-md-4 bookmark">
+				                   <span>1</span>
+				               </div>  
+				               <div class="col-xs-4 col-sm-4 col-md-4"><a href="#"></a></div>                         
+
+				          </div>
+				        </figcaption> -->
+				    	</figure>
+					</div>
+				</div>
+        	</section>
+            <section class="ch-items text-center no-things all-items">
                 <div class="ch-items-wrap container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
