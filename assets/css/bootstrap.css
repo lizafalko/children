@@ -7877,6 +7877,11 @@ h3 {
     display: none;
   }
 }
+@media (max-width: 594px) {
+  .ch-hover--none {
+    display: none;
+  }
+}
 .ch-enter {
   background: #e8f0f5;
 }
