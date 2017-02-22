@@ -7222,6 +7222,8 @@ footer a:hover {
 .social-wrap {
   overflow: hidden;
   margin: 40px 0;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 576px) {
   .social-wrap {
@@ -7649,112 +7651,12 @@ h3 {
   margin-top: 30px;
   margin-bottom: 45px;
 }
-@media (max-width: 991px) {
-  .btn-size-narrow {
-    margin-left: 422px;
-  }
-}
-@media (max-width: 854px) {
-  .btn-size-narrow {
-    margin-left: 357px;
-  }
-}
-@media (max-width: 773px) {
-  .btn-size-narrow {
-    margin-left: 314px;
-  }
-}
-@media (max-width: 708px) {
-  .btn-size-narrow {
-    margin-left: 295px;
-  }
-}
-@media (max-width: 699px) {
-  .btn-size-narrow {
-    margin-left: 276px;
-  }
-}
-@media (max-width: 606px) {
-  .btn-size-narrow {
-    margin-left: 250px;
-  }
-}
-@media (max-width: 490px) {
-  .btn-size-narrow {
-    margin-left: 175px;
-  }
-}
-@media (max-width: 348px) {
-  .btn-size-narrow {
-    margin-left: 110px;
-  }
-}
-@media (max-width: 513px) {
-  .btn-size-narrow {
-    margin-left: 183px;
-  }
-}
-@media (max-width: 513px) {
-  .btn-size-narrow {
-    margin-left: 140px;
-  }
-}
 .btn-text--capitalize {
   text-transform: capitalize;
 }
 .icon-collect-color {
   color: #ff4556;
   font-size: 26px;
-}
-@media (max-width: 991px) {
-  .icon-collect-color {
-    margin-left: 309px;
-  }
-}
-@media (max-width: 854px) {
-  .icon-collect-color {
-    margin-left: 244px;
-  }
-}
-@media (max-width: 773px) {
-  .icon-collect-color {
-    margin-left: 200px;
-  }
-}
-@media (max-width: 708px) {
-  .icon-collect-color {
-    margin-left: 155px;
-  }
-}
-@media (max-width: 699px) {
-  .icon-collect-color {
-    margin-left: 160px;
-  }
-}
-@media (max-width: 606px) {
-  .icon-collect-color {
-    margin-left: 140px;
-  }
-}
-@media (max-width: 490px) {
-  .icon-collect-color {
-    margin-left: 80px;
-  }
-}
-@media (max-width: 348px) {
-  .icon-collect-color {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 513px) {
-  .icon-collect-color {
-    margin-left: 73px;
-  }
-}
-@media (max-width: 513px) {
-  .icon-collect-color {
-    margin-left: 35px;
-  }
 }
 .text-align-icon {
   text-align: right;
@@ -7767,14 +7669,19 @@ h3 {
 }
 .text-align-icon2 {
   margin-top: 149px;
-  display: flex;
 }
 @media (max-width: 991px) {
   .text-align-icon2 {
+    margin-top: 0;
     text-align: center;
-    margin-top: -17px;
-    margin-left: 90px;
     margin-bottom: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .sooqa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .letter-select--text {
