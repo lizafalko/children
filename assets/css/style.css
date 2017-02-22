@@ -90,4 +90,6 @@
 .icon-view-01:before {
   content: "\e911";
 }
-
+.icon-scroll-up:before {
+  content: "\e912";
+}
