@@ -127,7 +127,21 @@
         		<div class="ch-items">
         			<div class="ch-card-wrap one-card__card">
 				    	<figure style="box-shadow: none;">
-				        	<img src="assets/img/items/9.png" width="443" height="611">
+              <section class="carousel-second">
+                <img src="assets/img/items/9.png" width="443" height="611">
+                <img src="assets/img/items/9.png" width="443" height="611">
+                <img src="assets/img/items/9.png" width="443" height="611">
+                <img src="assets/img/items/9.png" width="443" height="611">
+              </section>
+				        	<script type="text/javascript">
+                  $(".carousel-second").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: $(".one-card-left"),
+                    nextArrow: $(".one-card-right")
+                  });
+                  // $(".slick-arrow").hide();
+                </script>
 <!-- 				        <figcaption>
 				        <div class="trash"></div>
 				          <div class="row card-info">
