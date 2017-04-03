@@ -8313,14 +8313,13 @@ ch-hover {
   font-size: 14px;
   text-align: center;
 }
-.ch-button-wrap {
-  text-align: center;
+.ch-button-wrap-new {
   padding-bottom: 30px;
   padding-top: 20px;
   display: inline-block;
 }
 @media screen and (min-width: 456px) {
-  .ch-button-wrap + .ch-button-wrap {
+  .ch-button-wrap-new + .ch-button-wrap-new {
     margin-left: 40px;
   }
 }
@@ -8343,5 +8342,48 @@ ch-hover {
   background-color: #ff4557 !important;
   color: #ffffff;
   border: 1px solid #ff4557;
+}
+.ch-button-wrap-center {
+  color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  width: 185px;
+  padding: 13px 0px 10px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  background: #29abe1;
+  text-align: center;
+}
+.ch-button-wrap-center:hover {
+  background-color: #ff4557 !important;
+  color: #ffffff;
+  border: 1px solid #ff4557;
+}
+.button-center {
+  text-align: center !important;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.ch-button-wrap-delete {
+  color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  width: 185px;
+  padding: 13px 0px 10px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Myriad Pro";
+  font-size: 15px;
+  background: #da173c;
+}
+.ch-button-wrap-delete:hover {
+  background-color: #ff4557;
+  color: #ffffff;
+  border: 1px solid #ff4557;
+}
+.ch-button-wrap-grey {
+  color: #929292;
 }
 /*# sourceMappingURL=bootstrap.css.map */
