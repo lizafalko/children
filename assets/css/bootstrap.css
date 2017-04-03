@@ -8287,4 +8287,35 @@ ch-hover {
   border-top: 1px solid #dedddd !important;
   margin-top: 30px;
 }
+.ui .modal {
+  top: 25% !important;
+  margin-top: 0 !important;
+  position: relative !important;
+}
+.ui .modal > .header {
+  border-bottom: none;
+}
+.dimmer {
+  background-color: rgba(0, 0, 145, 0.6) !important;
+}
+.ch-enter-welcome {
+  color: #335478 !important;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.sign-confirm {
+  font-size: 14px;
+  text-align: center;
+}
+.text-narrow--confirm {
+  font-size: 14px;
+  text-align: center;
+}
+.ch-button-wrap {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
