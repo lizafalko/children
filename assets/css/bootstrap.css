@@ -8291,6 +8291,7 @@ ch-hover {
   top: 27% !important;
   margin-top: 0 !important;
   position: relative !important;
+  border-radius: 15px !important;
 }
 .ui .modal > .header {
   border-bottom: none;
